@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.startupEditor": "none",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "diffEditor.renderSideBySide": false
+}

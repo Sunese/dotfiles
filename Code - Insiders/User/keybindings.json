@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaults
+[
+    // ctrl + r ctrl + r to rename symbol
+    {
+        "key": "ctrl+r ctrl+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    // ctrl + k + s to save all files   
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveAll"
+    },
+    // alt + left arrow to navigate back
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    // alt + right arrow to navigate forward
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    // ctrl + æ to open terminal (note that 'æ' is represented as oem_8)
+    {
+        "key": "ctrl+[semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
+
+
+]
